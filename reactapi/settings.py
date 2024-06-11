@@ -68,7 +68,7 @@ WSGI_APPLICATION = 'reactapi.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'blogs',
+        'NAME': 'blog',
         'USER': 'management',
         'PASSWORD': 'management',
         'HOST': 'localhost',  # Or your MySQL server's IP address
